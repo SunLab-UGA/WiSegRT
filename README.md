@@ -42,7 +42,7 @@ bash generating.sh 9 0 scene_04 12 8 2.4 0.3
 bash generating.sh 18 0 scene_05 6 4 2.4 0.2
 bash generating.sh 16 0 scene_06 16 8 2.4 0.3
 ```
-* Or you can run a small scale simulations by setting the transmitter_number to 1.
+* Or you can run small-scale simulations by setting the transmitter_number to 1.
 
 * Upon completion, the generated path data and `.obj` models are stored within the `path` directory. For details on the data structure, refer to the `save_path` function in `generating.py`. Use the `load_path` function in `utilities.py` to access the stored paths. Note that outputs may include invalid receiver positions, which can be easily filterd out by their lack of valid path.
 
