@@ -1,3 +1,14 @@
+#
+# Copyright (C) 2024, SunLab (Lihao Zhang)
+# SunLab Wireless Research Group, https://sunlab.uga.edu
+# All rights reserved.
+#
+# This software is free for non-commercial, research and evaluation use 
+# under the terms of the LICENSE.md file.
+#
+# For inquiries contact  hsun@uga.edu
+#
+
 import argparse
 parser = argparse.ArgumentParser(description = 'gpu_ind & scene_file')
 parser.add_argument('gpu_ind', type=str)
